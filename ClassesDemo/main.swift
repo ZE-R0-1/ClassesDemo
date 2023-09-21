@@ -1,11 +1,9 @@
-//
-//  main.swift
-//  ClassesDemo
-//
-//  Created by 윤준영 on 2023/09/21.
-//
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
-
+let dragon = Dragon()
+dragon.wingSpan = 5
+dragon.attackStrength = 15
+dragon.talk(speech: "My teeth ar swords!")
+dragon.move()
+dragon.attack()
